@@ -112,6 +112,64 @@ namespace TodayTask1
             Console.Clear();
             Console.WriteLine("그렇게 주변과 동 떨어진 남자는 몸을 일으키며 나아갔다.");
             Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("눈 앞에 있는 게 길은 아니지만 일단 이곳이 어떤 곳인지 확인하기 위해");
+            Console.ReadLine();
+            Console.WriteLine("앞으로 나아가던 남자는 비명소리와 함께 전투 소리를 듣고 그곳으로");
+            Console.ReadLine();
+            Console.WriteLine("반사적으로 몸을 움직였다.");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("눈 앞에서는 산적들이 일방적으로 큰 마차를 유린하고 있었고");
+            Console.ReadLine();
+            Console.WriteLine("이미 대부분의 사람은 죽고 어린 여자아이 하나와 검사만이");
+            Console.ReadLine();
+            Console.WriteLine("끝까지 항전하고 있었다.");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("'흠... 검사는 부상을 입었고'");
+            Console.ReadLine();
+            Console.WriteLine("'아이는 검사에게 도망가자고 하고있군'");
+            Console.ReadLine();
+            Console.WriteLine("'산적들의 숫자도 꽤 되고 이거는 안 나서는 게 맞겠지...'");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("1. 산적들을 급습한다.");
+            Console.WriteLine("2. 기다렸다가 산적들을 해치우고 물과 식량을 확보한다.");
+            Console.WriteLine("번호를 누르고 엔터를 눌러주세요.");
+            int x = 0;
+            x = int.Parse(Console.ReadLine());
+            if (x ==1)
+            {
+                Console.WriteLine("'근데 저 아이.. 너무나도 내 딸아이와 닮았어..'");
+                Console.ReadLine();
+                Console.Clear();
+            }
+            else if (x ==2)
+            {
+                Console.WriteLine("T발롬아 그만해");
+                Console.WriteLine("이 스토리는 이미 답이 있다.");
+                Console.ReadLine();
+                Console.Clear();
+            }
+            Console.WriteLine("사내는 대장급으로 보이는 용병의 위로 몸을 날려 바로 목을 따버렸다.");
+            Console.ReadLine();
+            Console.WriteLine("그러면서 능숙하게 난전을 이어나갔고, 얼마 지나지 않아 검사와 대치하게 되었다.");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("\"@$#$@^@#()*&%*(^#%^#@#^@^@#$&*@%*!#@#\"");
+            Console.ReadLine();
+            Console.WriteLine("'역시 뭐라고 하는지 못 알아 듣겠군.'");
+            Console.ReadLine();
+            Console.WriteLine("이해가 안 되는 현상황을 직시하며 그는 그가 할 수 있는 최대한의 수를 취하려 했다.");
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("그는 아까의 검사와 소녀가 소통하는 모습을 보고 그나마 한 가지 길을 보았다.");
+            Console.ReadLine();
+            Console.WriteLine("수화를 통해서 \"소녀는 검사에게 짐을 줘버리자 했고\"");
+            Console.ReadLine();
+            Console.WriteLine("");
+            Console.ReadLine();
         }
     }
 }

@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\bin\Debug\grow_blacksmith.exe.config
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\bin\Debug\grow_blacksmith.exe
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\bin\Debug\grow_blacksmith.pdb
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\obj\Debug\grow_blacksmith.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\obj\Debug\grow_blacksmith.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\obj\Debug\grow_blacksmith.exe
+D:\LikeLionTest1\LikeLionTest1\grow_blacksmith\grow_blacksmith\obj\Debug\grow_blacksmith.pdb

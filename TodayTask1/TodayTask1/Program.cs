@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TodayTask1
@@ -134,23 +135,40 @@ namespace TodayTask1
             Console.WriteLine("'산적들의 숫자도 꽤 되고 이거는 안 나서는 게 맞겠지...'");
             Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("1. 산적들을 급습한다.");
-            Console.WriteLine("2. 기다렸다가 산적들을 해치우고 물과 식량을 확보한다.");
-            Console.WriteLine("번호를 누르고 엔터를 눌러주세요.");
-            int x = 0;
-            x = int.Parse(Console.ReadLine());
-            if (x ==1)
+            while(true)
             {
-                Console.WriteLine("'근데 저 아이.. 너무나도 내 딸아이와 닮았어..'");
-                Console.ReadLine();
-                Console.Clear();
-            }
-            else if (x ==2)
-            {
-                Console.WriteLine("T발롬아 그만해");
-                Console.WriteLine("이 스토리는 이미 답이 있다.");
-                Console.ReadLine();
-                Console.Clear();
+                Console.WriteLine("1. 산적들을 급습한다.");
+                Console.WriteLine("2. 기다렸다가 산적들을 해치우고 물과 식량을 확보한다.");
+                Console.WriteLine("번호를 누르고 엔터를 눌러주세요.");
+
+                string input = Console.ReadLine();
+                int x;
+
+                if(int.TryParse(input, out x))
+                {
+                    if (x == 1)
+                    {
+                        Console.WriteLine("'근데 저 아이.. 너무나도 내 딸아이와 닮았어..'");
+                        Console.ReadLine();
+                        Console.Clear();
+                        break;
+                    }
+                    else if (x == 2)
+                    {
+                        Console.WriteLine("T발롬아 그만해");
+                        Console.WriteLine("이 스토리는 이미 답이 있다.");
+                        Console.ReadLine();
+                        Console.Clear();
+                    }
+                    else
+                    {
+                        Console.WriteLine("유효하지 않은 버튼이라네.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("유효하지 않은 입력이라네, 숫자를 입력해주게.");
+                }
             }
             Console.WriteLine("사내는 대장급으로 보이는 용병의 위로 몸을 날려 바로 목을 따버렸다.");
             Console.ReadLine();
@@ -161,15 +179,25 @@ namespace TodayTask1
             Console.ReadLine();
             Console.WriteLine("'역시 뭐라고 하는지 못 알아 듣겠군.'");
             Console.ReadLine();
-            Console.WriteLine("이해가 안 되는 현상황을 직시하며 그는 그가 할 수 있는 최대한의 수를 취하려 했다.");
+            Console.WriteLine("검사는 매우 고통스러운 표정을 짓고 있었지만, 칼 끝은 매섭게 그를 노리고 있었다.");
+            Console.ReadLine();
+            Console.WriteLine("그리고 그는 그가 할 수 있는 유일한 길을 택했다.");
             Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("그는 아까의 검사와 소녀가 소통하는 모습을 보고 그나마 한 가지 길을 보았다.");
+            Console.WriteLine("그가 용병들을 급습할 생각을 했던 또하나의 이유는 소녀의 수화를 봤기 때문이었다.");
             Console.ReadLine();
             Console.WriteLine("수화를 통해서 \"소녀는 검사에게 짐을 줘버리자 했고\"");
             Console.ReadLine();
-            Console.WriteLine("");
+            Console.WriteLine("검사는 고개를 저의며 용병들에게 저항하고 있었기 때문이었다.");
             Console.ReadLine();
+            Console.Clear();
+            for (int i=1; i <= 13; i++)
+            {
+                Console.SetCursorPosition(i, 2);
+                Console.WriteLine("수화하는 중....");
+                Thread.Sleep(500);
+                Console.Clear();
+            }
         }
     }
 }

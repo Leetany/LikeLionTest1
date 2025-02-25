@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\bin\Debug\Raising_adventurer.exe.config
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\bin\Debug\Raising_adventurer.exe
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\bin\Debug\Raising_adventurer.pdb
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\obj\Debug\Raising_adventurer.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\obj\Debug\Raising_adventurer.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\obj\Debug\Raising_adventurer.exe
+D:\LikeLionTest1\LikeLionTest1\Raising_adventurer\Raising_adventurer\obj\Debug\Raising_adventurer.pdb

@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\bin\Debug\LikeLionTest19.exe.config
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\bin\Debug\LikeLionTest19.exe
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\bin\Debug\LikeLionTest19.pdb
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\obj\Debug\LikeLionTest19.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\obj\Debug\LikeLionTest19.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\obj\Debug\LikeLionTest19.exe
+D:\LikeLionTest1\LikeLionTest1\LikeLionTest19\LikeLionTest19\obj\Debug\LikeLionTest19.pdb

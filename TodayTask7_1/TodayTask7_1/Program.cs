@@ -14,13 +14,13 @@ namespace ShootingGame1
         {
             public int X;
             public int Y;
-            public string[] plane;
+            string[] shape;
 
             public Player(int x, int y)
             {
                 X = x;
                 Y = y;
-                plane = new string[]
+                shape = new string[]
                 {
                     "->",
                     ">>>",
@@ -28,60 +28,84 @@ namespace ShootingGame1
                 };
             }
 
-            public void Rendering()
+            public void Render()
             {
-                for (int i = 0; i < plane.Length; i++)
+                for(int i= 0; i <shape.Length; i++)
                 {
                     Console.SetCursorPosition(X, Y + i);
-                    Console.WriteLine(plane[i]);
+                    Console.WriteLine(shape[i]);
                 }
             }
 
-            public void Move(ref Player pp)
+            public void Move(ConsoleKeyInfo keyInfo, ref Player player )
             {
-                if (Console.KeyAvailable) //키가 눌렸을때 true
+                
+
+                switch (keyInfo.Key)
                 {
-                    ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-                    switch (keyInfo.Key)
-                    {
-                        case ConsoleKey.UpArrow: if (pp.Y > 0) pp.Y--; break;
-                        case ConsoleKey.DownArrow: if (pp.Y < Console.WindowHeight - 1) pp.Y++; break;
-                        case ConsoleKey.LeftArrow: if (pp.X > 0) pp.X--; break;
-                        case ConsoleKey.RightArrow: if (pp.X < Console.WindowWidth - 1) pp.X++; break;
-                        case ConsoleKey.Spacebar: Console.Write("미사일키"); break;
-                        case ConsoleKey.Escape: return; //ESC키로 종료 
-                    }
+                    case ConsoleKey.UpArrow:
+                        if (player.Y > 0) player.Y--; break;
+                    case ConsoleKey.DownArrow:
+                        if (player.Y < Console.WindowHeight - 3) player.Y++; break;
+                    case ConsoleKey.LeftArrow:
+                        if (player.X > 0) player.X--; break;
+                    case ConsoleKey.RightArrow:
+                        if (player.X < Console.WindowWidth - 3) player.X++; break;
+                    case ConsoleKey.Escape: return;
                 }
             }
         }
+
         static void Main(string[] args)
         {
-            Console.SetWindowSize(125, 40); // 콘솔 창 크기 설정 (가로 80, 세로 25)
-            Console.SetBufferSize(125, 40); // 버퍼 크기도 동일하게 설정 (스크롤 방지)
+            Console.SetWindowSize(125, 40);
+            Console.SetBufferSize(125, 40);
             Console.CursorVisible = false;
 
             Player player = new Player(0, 12);
+
+            int playerX = 0;
+            int playerY = 12;
 
             ConsoleKeyInfo keyInfo;
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            long prevSecond = stopwatch.ElapsedMilliseconds; // 1 /1000    1000일때 1초
+            long prevSecond = stopwatch.ElapsedMilliseconds;
 
-            while (true)
+            while(true)
             {
-                long currentSecond = stopwatch.ElapsedMilliseconds; 
+                long currentSecond = stopwatch.ElapsedMilliseconds;
 
                 if (currentSecond - prevSecond >= 100)
                 {
-                    Console.Clear();
+                    keyInfo = Console.ReadKey(true);
+                    
+                    player.Move(keyInfo, ref player);
 
-                    player.Move(ref player);
-
-                    player.Rendering();
-                    prevSecond = currentSecond;//이전 시간 업데이트
+                    /*switch (keyInfo.Key)
+                    {
+                        case ConsoleKey.UpArrow: 
+                            if (playerY > 0) playerY--; break;
+                        case ConsoleKey.DownArrow:
+                            if (playerY < Console.WindowHeight - 3) playerY++; break;
+                        case ConsoleKey.LeftArrow:
+                            if (playerX > 0) playerX--; break;
+                        case ConsoleKey.RightArrow:
+                            if (playerX < Console.WindowWidth - 3) playerX++; break;
+                        case ConsoleKey.Escape: return;
+                    }*/
                 }
+
+                player.Render();
+
+                /*for(int i = 0; i < player.Length; i++)
+                {
+                    Console.SetCursorPosition(playerX, playerY + i);
+                    Console.WriteLine(player[i]);
+                }*/
+                prevSecond = currentSecond;
             }
         }
     }

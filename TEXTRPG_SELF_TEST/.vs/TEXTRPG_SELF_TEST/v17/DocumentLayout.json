@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|d:\\likeliontest1\\likeliontest1\\textrpg_self_test\\textrpg_self_test\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|solutionrelative:textrpg_self_test\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\textrpg_self_test\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|solutionrelative:textrpg_self_test\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\textrpg_self_test\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|solutionrelative:textrpg_self_test\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\textrpg_self_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE24EA16-E087-46FD-A395-F6902E1A0C6C}|TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST.csproj|solutionrelative:textrpg_self_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Field.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\Field.cs",
+              "RelativeDocumentMoniker": "TEXTRPG_SELF_TEST\\Field.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\Field.cs",
+              "RelativeToolTip": "TEXTRPG_SELF_TEST\\Field.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:06:25.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainGame.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\MainGame.cs",
+              "RelativeDocumentMoniker": "TEXTRPG_SELF_TEST\\MainGame.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\MainGame.cs",
+              "RelativeToolTip": "TEXTRPG_SELF_TEST\\MainGame.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:57:47.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "INFO.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\INFO.cs",
+              "RelativeDocumentMoniker": "TEXTRPG_SELF_TEST\\INFO.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\INFO.cs",
+              "RelativeToolTip": "TEXTRPG_SELF_TEST\\INFO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:48:08.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\Program.cs",
+              "RelativeDocumentMoniker": "TEXTRPG_SELF_TEST\\Program.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_SELF_TEST\\TEXTRPG_SELF_TEST\\Program.cs",
+              "RelativeToolTip": "TEXTRPG_SELF_TEST\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:47:40.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

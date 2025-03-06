@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEXTRPG", "TEXTRPG\TEXTRPG.csproj", "{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E86D9DE-42DE-401A-B638-BA0E7265D259}
+	EndGlobalSection
+EndGlobal

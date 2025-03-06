@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|d:\\likeliontest1\\likeliontest1\\likeliontest49\\likeliontest49\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|solutionrelative:likeliontest49\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|d:\\likeliontest1\\likeliontest1\\likeliontest49\\likeliontest49\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|solutionrelative:likeliontest49\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|d:\\likeliontest1\\likeliontest1\\likeliontest49\\likeliontest49\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|solutionrelative:likeliontest49\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|d:\\likeliontest1\\likeliontest1\\likeliontest49\\likeliontest49\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACCBBABC-1BA5-4C0D-97DD-F6BAAD46C6F2}|LikeLionTest49\\LikeLionTest49.csproj|solutionrelative:likeliontest49\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\Warrior.cs",
+              "RelativeDocumentMoniker": "LikeLionTest49\\Warrior.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\Warrior.cs",
+              "RelativeToolTip": "LikeLionTest49\\Warrior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:42:05.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\Mage.cs",
+              "RelativeDocumentMoniker": "LikeLionTest49\\Mage.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\Mage.cs",
+              "RelativeToolTip": "LikeLionTest49\\Mage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:34:45.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameCharacter.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\GameCharacter.cs",
+              "RelativeDocumentMoniker": "LikeLionTest49\\GameCharacter.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\GameCharacter.cs",
+              "RelativeToolTip": "LikeLionTest49\\GameCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:25:03.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\Program.cs",
+              "RelativeDocumentMoniker": "LikeLionTest49\\Program.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\LikeLionTest49\\LikeLionTest49\\Program.cs",
+              "RelativeToolTip": "LikeLionTest49\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:21:41.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

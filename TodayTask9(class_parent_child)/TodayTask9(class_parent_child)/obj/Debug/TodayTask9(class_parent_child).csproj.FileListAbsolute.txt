@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\obj\Debug\TodayTask9(class_parent_child).csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\obj\Debug\TodayTask9(class_parent_child).csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\bin\Debug\TodayTask9(class_parent_child).exe.config
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\bin\Debug\TodayTask9(class_parent_child).exe
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\bin\Debug\TodayTask9(class_parent_child).pdb
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\obj\Debug\TodayTask9(class_parent_child).exe
+D:\LikeLionTest1\LikeLionTest1\TodayTask9(class_parent_child)\TodayTask9(class_parent_child)\obj\Debug\TodayTask9(class_parent_child).pdb

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LikeLionTest1\\LikeLionTest1\\SkillSystemStduy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC9E021-670A-4E7B-9B34-D567760AD772}|SkillSystemStduy\\SkillSystemStduy.csproj|d:\\likeliontest1\\likeliontest1\\skillsystemstduy\\skillsystemstduy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC9E021-670A-4E7B-9B34-D567760AD772}|SkillSystemStduy\\SkillSystemStduy.csproj|solutionrelative:skillsystemstduy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\SkillSystemStduy\\SkillSystemStduy\\Program.cs",
+              "RelativeDocumentMoniker": "SkillSystemStduy\\Program.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\SkillSystemStduy\\SkillSystemStduy\\Program.cs*",
+              "RelativeToolTip": "SkillSystemStduy\\Program.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAA0wGMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:06:54.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

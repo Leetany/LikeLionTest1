@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LikeLionTest1\\LikeLionTest1\\Minesweeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA48FB18-5497-4CE5-ABB9-F5117D602158}|Minesweeper\\Minesweeper.csproj|d:\\likeliontest1\\likeliontest1\\minesweeper\\minesweeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA48FB18-5497-4CE5-ABB9-F5117D602158}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\Minesweeper\\Minesweeper\\Program.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\Program.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\Minesweeper\\Minesweeper\\Program.cs*",
+              "RelativeToolTip": "Minesweeper\\Program.cs*",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwHkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:48:51.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

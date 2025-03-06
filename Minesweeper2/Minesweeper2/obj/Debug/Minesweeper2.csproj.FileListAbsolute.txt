@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\bin\Debug\Minesweeper2.exe.config
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\bin\Debug\Minesweeper2.exe
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\bin\Debug\Minesweeper2.pdb
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\obj\Debug\Minesweeper2.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\obj\Debug\Minesweeper2.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\obj\Debug\Minesweeper2.exe
+D:\LikeLionTest1\LikeLionTest1\Minesweeper2\Minesweeper2\obj\Debug\Minesweeper2.pdb

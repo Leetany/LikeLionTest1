@@ -28,6 +28,8 @@ namespace ShootingGame
 
         public int Score = 100;
         public Item item = new Item();
+        public Item item2 = new Item();
+        public Item item3 = new Item();
         public int itemCount = 1;
 
 
@@ -39,9 +41,9 @@ namespace ShootingGame
 
             playerBullets = new BULLET[3, 20];
 
-            for(int i = 0; i < itemCount; i++)
+            for (int i = 0; i < itemCount; i++)
             {
-                for(int j = 0; j < 20; j++)
+                for (int j = 0; j < 20; j++)
                 {
                     playerBullets[i, j] = new BULLET();
                     playerBullets[i, j].x = 0;
@@ -67,6 +69,21 @@ namespace ShootingGame
                 item.ItemDraw();
                 CrashItem();
             }
+
+            if (item2.ItemLife)
+            {
+                item2.ItemMove();
+                item2.ItemDraw();
+                CrashItem();
+            }
+
+            if (item3.ItemLife)
+            {
+                item3.ItemMove();
+                item3.ItemDraw();
+                CrashItem();
+            }
+
         }
 
         public void KeyControl()
@@ -109,9 +126,9 @@ namespace ShootingGame
                     case 32: //스페이스바
                         for (int i = 0; i < itemCount; i++)
                         {
-                            for(int j = 0; j < 20; j++)
+                            for (int j = 0; j < 20; j++)
                             {
-                                if (playerBullets[i,j].fire == false)
+                                if (playerBullets[i, j].fire == false)
                                 {
                                     playerBullets[i, j].fire = true;
                                     playerBullets[i, j].x = playerX + 5;
@@ -134,18 +151,18 @@ namespace ShootingGame
         {
             string bullet = "->";
 
-            for(int i = 0; i < itemCount; i++)
+            for (int i = 0; i < itemCount; i++)
             {
-                for(int j = 0; j < 20; j++)
+                for (int j = 0; j < 20; j++)
                 {
-                    if (playerBullets[i,j].fire == true)
+                    if (playerBullets[i, j].fire == true)
                     {
-                        Console.SetCursorPosition(playerBullets[i, j].x - 1, playerBullets[i,j].y);
+                        Console.SetCursorPosition(playerBullets[i, j].x - 1, playerBullets[i, j].y);
                         Console.Write(bullet);
 
-                        playerBullets[i,j].x++;
+                        playerBullets[i, j].x++;
 
-                        if (playerBullets[i,j].x >78)
+                        if (playerBullets[i, j].x > 78)
                         {
                             playerBullets[i, j].fire = false;
                         }
@@ -175,19 +192,79 @@ namespace ShootingGame
         //충돌처리
         public void ClashEnemyAndBullet(Enemy enemy)
         {
-            for(int i = 0; i < itemCount; i++)
+            for (int i = 0; i < itemCount; i++)
             {
-                for(int j = 0; j < 20; j++)
+                for (int j = 0; j < 20; j++)
                 {
-                    if (playerBullets[i,j].fire == true)
+                    if (playerBullets[i, j].fire == true)
                     {
-                        if (playerBullets[i,j].y == enemy.enemyY)
+                        if (playerBullets[i, j].y == enemy.enemyY)
                         {
-                            if (playerBullets[i,j].x >= (enemy.enemyX -1) && playerBullets[i,j].x <=(enemy.enemyX+1))
+                            if (playerBullets[i, j].x >= (enemy.enemyX - 1) && playerBullets[i, j].x <= (enemy.enemyX + 1))
                             {
                                 item.ItemLife = true;
                                 item.itemX = enemy.enemyX;
                                 item.itemY = enemy.enemyY;
+
+                                Random rand = new Random();
+                                enemy.enemyX = 75;
+                                enemy.enemyY = rand.Next(2, 22);
+
+                                playerBullets[i, j].fire = false;
+
+                                Score += 100;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public void ClashEnemyAndBullet2(Enemy enemy)
+        {
+            for (int i = 0; i < itemCount; i++)
+            {
+                for (int j = 0; j < 20; j++)
+                {
+                    if (playerBullets[i, j].fire == true)
+                    {
+                        if (playerBullets[i, j].y == enemy.enemyY)
+                        {
+                            if (playerBullets[i, j].x >= (enemy.enemyX - 1) && playerBullets[i, j].x <= (enemy.enemyX + 1))
+                            {
+                                item2.ItemLife = true;
+                                item2.itemX = enemy.enemyX;
+                                item2.itemY = enemy.enemyY;
+
+                                Random rand = new Random();
+                                enemy.enemyX = 75;
+                                enemy.enemyY = rand.Next(2, 22);
+
+                                playerBullets[i, j].fire = false;
+
+                                Score += 100;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public void ClashEnemyAndBullet3(Enemy enemy)
+        {
+            for (int i = 0; i < itemCount; i++)
+            {
+                for (int j = 0; j < 20; j++)
+                {
+                    if (playerBullets[i, j].fire == true)
+                    {
+                        if (playerBullets[i, j].y == enemy.enemyY)
+                        {
+                            if (playerBullets[i, j].x >= (enemy.enemyX - 1) && playerBullets[i, j].x <= (enemy.enemyX + 1))
+                            {
+                                item3.ItemLife = true;
+                                item3.itemX = enemy.enemyX;
+                                item3.itemY = enemy.enemyY;
 
                                 Random rand = new Random();
                                 enemy.enemyX = 75;
@@ -213,6 +290,25 @@ namespace ShootingGame
             Console.Write("Score : " + Score);
             Console.SetCursorPosition(63, 2);
             Console.Write("┗━━━━━━━━━━━━━━┛");
+
+            if(Score <0)
+            {
+                Console.Clear();
+                Console.SetCursorPosition(30, 5);
+                Console.Write("┏━━━━━━━━━━━━━━┓");
+                Console.SetCursorPosition(30, 6);
+                Console.Write("┃              ┃");
+                Console.SetCursorPosition(33, 6);
+                Console.Write("Game Over");
+                Console.SetCursorPosition(30, 7);
+                Console.Write("┗━━━━━━━━━━━━━━┛");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine();
+                Environment.Exit(1);
+            }
         }
 
         //아이템 충돌이 일어나면 양쪽미사일 발사
@@ -228,13 +324,13 @@ namespace ShootingGame
                     if (itemCount < 3)
                         itemCount++;
 
-                    for(int i = 0; i < itemCount; i++)
+                    for (int i = 0; i < itemCount; i++)
                     {
-                        for(int j = 0; j < 20; j++)
+                        for (int j = 0; j < 20; j++)
                         {
                             playerBullets[i, j] = new BULLET();
-                            playerBullets[i,j].x = 0;
-                            playerBullets[i,j].y = 0;
+                            playerBullets[i, j].x = 0;
+                            playerBullets[i, j].y = 0;
                             playerBullets[i, j].fire = false;
                         }
                     }
@@ -243,6 +339,20 @@ namespace ShootingGame
             }
         }
 
+        public void CrashEnemy(Enemy enemy)
+        {
+            Random rand = new Random();
+
+            if(playerY + 1 >= enemy.enemyY-1 && playerY+1 <=enemy.enemyY+1 )
+            {
+                if(playerX >= enemy.enemyX -2 && playerX <= enemy.enemyX+2)
+                {
+                    enemy.enemyX = 75;
+                    enemy.enemyY = rand.Next(2, 22);
+                    Score -= 100;
+                }
+            }
+        }
     }
 
     public class Enemy //적 클래스
@@ -264,7 +374,7 @@ namespace ShootingGame
             Console.Write(enemy);//출력
         }
 
-        public void EnmeyMove()
+        public void EnemyMove(Player player)
         {
             Random rand = new Random(); //랜덤
             enemyX--; //왼쪽으로 움직임
@@ -273,6 +383,7 @@ namespace ShootingGame
             {
                 enemyX = 75; //좌표 77
                 enemyY = rand.Next(2, 22); //2~21 
+                player.Score -= 100;
             }
         }
     }
@@ -296,10 +407,12 @@ namespace ShootingGame
 
         public void ItemMove()
         {
-            //if(itemX <=1 || itemY <=1)
-            //{
-            //    ItemLife = false;
-            //}
+            itemX--;
+
+            if (itemX <= 1 || itemY <= 1)
+            {
+                ItemLife = false;
+            }
         }
     }
 
@@ -317,10 +430,13 @@ namespace ShootingGame
             //플레이어 생성
             Player player = new Player();
             Enemy enemy = new Enemy(); //적생성
+            Enemy enemy2 = new Enemy();
+            Enemy enemy3 = new Enemy();
 
             //유니티처럼 속도 프레임속도
             int dwTime = Environment.TickCount;  // 1/1000 초가 흐른다.
 
+            Console.ReadLine();
             while (true) //무한반복
             {
                 //0.05초 지연
@@ -335,11 +451,24 @@ namespace ShootingGame
 
                     player.BulletDraws();
 
-                    enemy.EnmeyMove();//적이동
+                    enemy.EnemyMove(player);//적이동
                     enemy.EnemyDraw();//적그리기
+
+                    enemy2.EnemyMove(player);
+                    enemy2.EnemyDraw();
+
+                    enemy3.EnemyMove(player);
+                    enemy3.EnemyDraw();
 
                     //충돌처리
                     player.ClashEnemyAndBullet(enemy);
+                    player.ClashEnemyAndBullet2(enemy2);
+                    player.ClashEnemyAndBullet3(enemy3);
+
+
+                    player.CrashEnemy(enemy);
+                    player.CrashEnemy(enemy2);
+                    player.CrashEnemy(enemy3);
                 }
             }
         }

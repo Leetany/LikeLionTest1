@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\bin\Debug\TEXTRPG_with_heritage.exe.config
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\bin\Debug\TEXTRPG_with_heritage.exe
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\bin\Debug\TEXTRPG_with_heritage.pdb
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\obj\Debug\TEXTRPG_with_heritage.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\obj\Debug\TEXTRPG_with_heritage.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\obj\Debug\TEXTRPG_with_heritage.exe
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_with_heritage\TEXTRPG_with_heritage\obj\Debug\TEXTRPG_with_heritage.pdb

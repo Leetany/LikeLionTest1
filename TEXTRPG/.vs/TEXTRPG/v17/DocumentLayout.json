@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|d:\\likeliontest1\\likeliontest1\\textrpg\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|d:\\likeliontest1\\likeliontest1\\textrpg\\textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6292C9C-D2F9-4010-B6A2-F4164E974BFC}|TEXTRPG\\TEXTRPG.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Monster.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\Monster.cs",
               "RelativeDocumentMoniker": "TEXTRPG\\Monster.cs",
@@ -51,33 +51,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Field.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\Field.cs",
               "RelativeDocumentMoniker": "TEXTRPG\\Field.cs",
               "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\Field.cs",
               "RelativeToolTip": "TEXTRPG\\Field.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwGgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:02:48.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainGame.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\MainGame.cs",
               "RelativeDocumentMoniker": "TEXTRPG\\MainGame.cs",
               "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\MainGame.cs",
               "RelativeToolTip": "TEXTRPG\\MainGame.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T04:32:09.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\Player.cs",
               "RelativeDocumentMoniker": "TEXTRPG\\Player.cs",
@@ -85,8 +85,7 @@
               "RelativeToolTip": "TEXTRPG\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:12:55.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T04:12:55.013Z"
             },
             {
               "$type": "Document",
@@ -98,12 +97,11 @@
               "RelativeToolTip": "TEXTRPG\\INFO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:10:53.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T04:10:53.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG\\TEXTRPG\\Program.cs",
               "RelativeDocumentMoniker": "TEXTRPG\\Program.cs",

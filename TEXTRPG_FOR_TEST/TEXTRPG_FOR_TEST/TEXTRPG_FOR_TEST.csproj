@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15BEE1D2-046E-41BB-9983-386015DEB652}</ProjectGuid>
+    <ProjectGuid>{A08C4086-3929-4374-B3F3-305B46511B1A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BricksGame</RootNamespace>
-    <AssemblyName>BricksGame</AssemblyName>
+    <RootNamespace>TEXTRPG_FOR_TEST</RootNamespace>
+    <AssemblyName>TEXTRPG_FOR_TEST</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ball.cs" />
-    <Compile Include="BALLDATA.cs" />
-    <Compile Include="Bar.cs" />
-    <Compile Include="BARDATA.cs" />
-    <Compile Include="GameManager.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="INFO.cs" />
+    <Compile Include="MainGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

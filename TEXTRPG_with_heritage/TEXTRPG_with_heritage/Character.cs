@@ -13,7 +13,6 @@ namespace TEXTRPG_with_heritage
         public int iHP;
 
         public void SetDamage(Character target) { iHP -= target.iAttack; }
-        public void SetHP (Character target) { iHP = target.iHP; }
 
         public void Render()
         {

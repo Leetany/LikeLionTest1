@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|solutionrelative:textrpg_with_heritage\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\textrpg_with_heritage\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|solutionrelative:textrpg_with_heritage\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\textrpg_with_heritage\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|solutionrelative:textrpg_with_heritage\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\textrpg_with_heritage\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|solutionrelative:textrpg_with_heritage\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07AA4DC9-8D66-458A-AE2A-4A553ED01F71}|TEXTRPG_with_heritage\\TEXTRPG_with_heritage.csproj|D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\textrpg_with_heritage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,34 +36,36 @@
               "RelativeDocumentMoniker": "TEXTRPG_with_heritage\\Field.cs",
               "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\TEXTRPG_with_heritage\\Field.cs",
               "RelativeToolTip": "TEXTRPG_with_heritage\\Field.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwA0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T11:58:57.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainGame.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\TEXTRPG_with_heritage\\MainGame.cs",
               "RelativeDocumentMoniker": "TEXTRPG_with_heritage\\MainGame.cs",
               "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\TEXTRPG_with_heritage\\MainGame.cs",
               "RelativeToolTip": "TEXTRPG_with_heritage\\MainGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T10:56:09.892Z"
+              "WhenOpened": "2025-03-06T10:56:09.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\TEXTRPG_with_heritage\\Character.cs",
               "RelativeDocumentMoniker": "TEXTRPG_with_heritage\\Character.cs",
               "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\TEXTRPG_with_heritage\\TEXTRPG_with_heritage\\Character.cs",
               "RelativeToolTip": "TEXTRPG_with_heritage\\Character.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T08:58:11.757Z"
+              "WhenOpened": "2025-03-06T08:58:11.757Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +77,8 @@
               "RelativeToolTip": "TEXTRPG_with_heritage\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T08:57:58.403Z"
+              "WhenOpened": "2025-03-06T08:57:58.403Z",
+              "EditorCaption": ""
             }
           ]
         }

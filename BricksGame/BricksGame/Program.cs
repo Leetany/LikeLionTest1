@@ -9,7 +9,7 @@ namespace BricksGame
 {
     class Program
     {
-        [DllImport("mscvrt.dll")]
+        [DllImport("msvcrt.dll")]
         public static extern int _getch();  //c언어 함수 가져옴
 
         public static void gotoxy(int x, int y)

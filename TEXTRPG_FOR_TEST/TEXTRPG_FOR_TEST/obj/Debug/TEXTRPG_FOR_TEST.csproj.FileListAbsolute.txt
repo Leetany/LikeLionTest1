@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\bin\Debug\TEXTRPG_FOR_TEST.exe.config
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\bin\Debug\TEXTRPG_FOR_TEST.exe
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\bin\Debug\TEXTRPG_FOR_TEST.pdb
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\obj\Debug\TEXTRPG_FOR_TEST.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\obj\Debug\TEXTRPG_FOR_TEST.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\obj\Debug\TEXTRPG_FOR_TEST.exe
+D:\LikeLionTest1\LikeLionTest1\TEXTRPG_FOR_TEST\TEXTRPG_FOR_TEST\obj\Debug\TEXTRPG_FOR_TEST.pdb

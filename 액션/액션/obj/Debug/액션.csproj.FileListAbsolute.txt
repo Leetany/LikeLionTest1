@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\액션\액션\bin\Debug\액션.exe.config
+D:\LikeLionTest1\LikeLionTest1\액션\액션\bin\Debug\액션.exe
+D:\LikeLionTest1\LikeLionTest1\액션\액션\bin\Debug\액션.pdb
+D:\LikeLionTest1\LikeLionTest1\액션\액션\obj\Debug\액션.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\액션\액션\obj\Debug\액션.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\액션\액션\obj\Debug\액션.exe
+D:\LikeLionTest1\LikeLionTest1\액션\액션\obj\Debug\액션.pdb

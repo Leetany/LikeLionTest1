@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\Event\Event\bin\Debug\Event.exe.config
+D:\LikeLionTest1\LikeLionTest1\Event\Event\bin\Debug\Event.exe
+D:\LikeLionTest1\LikeLionTest1\Event\Event\bin\Debug\Event.pdb
+D:\LikeLionTest1\LikeLionTest1\Event\Event\obj\Debug\Event.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\Event\Event\obj\Debug\Event.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\Event\Event\obj\Debug\Event.exe
+D:\LikeLionTest1\LikeLionTest1\Event\Event\obj\Debug\Event.pdb

@@ -1,0 +1,2 @@
+D:\LikeLionTest1\LikeLionTest1\Action1\Action1\obj\Debug\Action1.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\Action1\Action1\obj\Debug\Action1.csproj.CoreCompileInputs.cache

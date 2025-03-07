@@ -1,0 +1,7 @@
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\bin\Debug\DeligateEvent.exe.config
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\bin\Debug\DeligateEvent.exe
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\bin\Debug\DeligateEvent.pdb
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\obj\Debug\DeligateEvent.csproj.AssemblyReference.cache
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\obj\Debug\DeligateEvent.csproj.CoreCompileInputs.cache
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\obj\Debug\DeligateEvent.exe
+D:\LikeLionTest1\LikeLionTest1\DeligateEvent\DeligateEvent\obj\Debug\DeligateEvent.pdb

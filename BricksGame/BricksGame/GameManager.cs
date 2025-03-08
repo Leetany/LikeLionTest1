@@ -11,6 +11,7 @@ namespace BricksGame
     {
         Ball m_pBall = null;
         Bar m_pBar = null;
+        public Block m_pBlock = null;
 
         public void Initialize()
         {
@@ -27,14 +28,23 @@ namespace BricksGame
                 m_pBar.Initialize();
             }
 
+            if(m_pBlock == null)
+            {
+                m_pBlock = new Block();
+                m_pBlock.Initialize(20);
+            }
+
             //볼에서 바와 벽돌을 사용해야 할 거 같다.
             m_pBall.SetBar(m_pBar);
+            m_pBall.SetBlock(m_pBlock);
         }
 
         public void Progress()
         {
             m_pBall.Progress();
             m_pBar.Progress(ref m_pBall);
+            m_pBlock.Progress(20);
+            
         }
 
         public void Render()
@@ -42,12 +52,14 @@ namespace BricksGame
             Console.Clear();
             m_pBall.Render();
             m_pBar.Render();
+            m_pBlock.Render();
+            
         }
 
         public void Release()
         {
             m_pBall.Release();
-            m_pBar.Render();
+            m_pBar.Release();
         }
     }
 }

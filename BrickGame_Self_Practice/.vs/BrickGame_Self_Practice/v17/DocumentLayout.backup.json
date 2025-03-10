@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|d:\\likeliontest1\\likeliontest1\\brickgame_self_practice\\brickgame_self_practice\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|solutionrelative:brickgame_self_practice\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\brickgame_self_practice\\balldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|solutionrelative:brickgame_self_practice\\balldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\brickgame_self_practice\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|solutionrelative:brickgame_self_practice\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\brickgame_self_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0648CDEB-533A-475F-9405-2B6A972DB92A}|BrickGame_Self_Practice\\BrickGame_Self_Practice.csproj|solutionrelative:brickgame_self_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainGame.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\MainGame.cs",
+              "RelativeDocumentMoniker": "BrickGame_Self_Practice\\MainGame.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\MainGame.cs",
+              "RelativeToolTip": "BrickGame_Self_Practice\\MainGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:44:56.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\Ball.cs",
+              "RelativeDocumentMoniker": "BrickGame_Self_Practice\\Ball.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\Ball.cs",
+              "RelativeToolTip": "BrickGame_Self_Practice\\Ball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:43:43.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BALLDATA.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\BALLDATA.cs",
+              "RelativeDocumentMoniker": "BrickGame_Self_Practice\\BALLDATA.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\BALLDATA.cs",
+              "RelativeToolTip": "BrickGame_Self_Practice\\BALLDATA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:42:13.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\Program.cs",
+              "RelativeDocumentMoniker": "BrickGame_Self_Practice\\Program.cs",
+              "ToolTip": "D:\\LikeLionTest1\\LikeLionTest1\\BrickGame_Self_Practice\\BrickGame_Self_Practice\\Program.cs",
+              "RelativeToolTip": "BrickGame_Self_Practice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T08:40:33.141Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
